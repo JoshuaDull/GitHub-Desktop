@@ -109,7 +109,7 @@ GitHub Desktop will display the differnces between each file we've updated or ad
 
 * Add Screenshot showing diff
 
-> ### Commit and push changes to GitHub
+> ## Commit and push changes to GitHub
 > Now we can commit a new version of the repo and push our changes to GitHub so our collaborators can see the latest version.
 >1. Check the difference between the versions.
 >2. Write a descriptive commit message (See callout below for more on commit messages).
@@ -120,7 +120,7 @@ GitHub Desktop will display the differnces between each file we've updated or ad
 
 * Add Screenshot 
 
-> ### Commit messages
+> ## Commit messages
 >Commit messages are required for each version of a repo. It is best practice for a commit meesage to be a short, but descriptive summary of the major changes to this verison. 
 >Think of a commit message as the human readable identifier for each version. View the [wiki](https://wiki.openstack.org/wiki/GitCommitMessages#Information_in_commit_messages) for more information on commit message best practices.
 >
@@ -130,7 +130,7 @@ GitHub Desktop will display the differnces between each file we've updated or ad
 
 You can also edit files and commit changes using the GitHub.com site. You can only edit repos that you own or have been given edit permissions to. 
 
->### Working on GitHub.com
+>## Working on GitHub.com
 >Let's edit our README file directly fromthe GitHub.com site. Make sure you are logged in to your account.
 >1. Go to GitHub.com and find the repo we created for this workshop.
 >2. Click on the README.md file. This will take you to another page.
