@@ -61,7 +61,7 @@ Click 'Create Repository'. Now we've created our first local Git repository.
 
 ### Publishing to GitHub
 
-If we go the the directory we set as the 'local path' above, we should see a directory with our repo name. In this dorectory, we should see several files that we just created (README, .gitignore, license). 
+If we go the the directory we set as the 'local path' above, we should see a directory with our repo name. In this directory, we should see several files that we just created (README, .gitignore, license). 
 
 In order to make our repo public, we need to click 'Publish repository'. This will publish our repo to GitHub.com and it will be listed under our list of repositories. 
 

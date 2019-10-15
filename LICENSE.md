@@ -6,8 +6,7 @@ root: .
 
 ## Instructional Material
 
-All Software Carpentry, Data Carpentry, and Library Carpentry instructional
-material is made available under the [Creative Commons Attribution
+All instructional material is made available under the [Creative Commons Attribution
 license][cc-by-human]. The following is a human-readable summary of (and not a
 substitute for) the [full legal text of the CC BY 4.0 license][cc-by-legal].
 
@@ -23,10 +22,7 @@ license terms.
 
 Under the following terms:
 
-* **Attribution**---You must give appropriate credit (mentioning that
-  your work is derived from work that is Copyright © Software
-  Carpentry and, where practical, linking to
-  https://software-carpentry.org/), provide a [link to the
+* **Attribution**---You must give appropriate credit, provide a [link to the
   license][cc-by-human], and indicate if changes were made. You may do
   so in any reasonable manner, but not in any way that suggests the
   licensor endorses you or your use.

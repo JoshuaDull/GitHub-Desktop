@@ -1,6 +1,12 @@
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3265772.svg)](https://doi.org/10.5281/zenodo.3265772)  
+## Authors 
 
-# Maintainers for Library Carpentry: Introduction to Git
+* Episodes 1 & 4 are derived from ['Library Carpentry: Introduction to Git'](https://librarycarpentry.org/lc-git/). 
+
+* All other material is authored by Joshua Dull and is made available under the [Creative Commons Attribution license](https://joshuadull.github.io/GitHub-Desktop/LICENSE.html). 
+
+**The information below pertains to the original 'Library Carpentry: Introduction to Git' lesson. This applies to episodes 1 & 4.**
+
+## Maintainers for Library Carpentry: Introduction to Git
 
 - [Silvia di Giorgio](https://twitter.com/digiorgiosilvia )
 - [Thea Atwood](https://github.com/tpatwood)
@@ -23,20 +29,12 @@ Lesson Maintainers communication is via the [team site](https://github.com/orgs/
 
 ## License
 
-All Software, Data, and Library Carpentry instructional material is made available under the [Creative Commons Attribution
+All instructional material is made available under the [Creative Commons Attribution
 license](https://github.com/LibraryCarpentry/lc-git/blob/gh-pages/LICENSE.md).
-
-## Contributing
-
-There are many ways to discuss and contribute to Library Carpentry lessons. Visit the lesson [discussion page](https://librarycarpentry.org/lc-git/discuss/index.html) to learn more. Also see [Contributing](https://github.com/LibraryCarpentry/lc-git/blob/gh-pages/CONTRIBUTING.md).
 
 ## Code of Conduct
 
 All participants should agree to abide by The Carpentries [Code of Conduct](https://docs.carpentries.org/topic_folders/policies/code-of-conduct.html).
-
-## Authors
-
-Library Carpentry is authored and maintained through issues, commits, and pull requests from the community.
 
 ## Citation
 
