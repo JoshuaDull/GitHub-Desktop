@@ -28,12 +28,16 @@ lesson. These commands will be explained as we proceed from setting up a new ver
 
 Before we can start tracking version, we must set-up our GitHub Desktop application with our GitHub account information. 
 
-First, we will connect to our GitHub account using our username and password (if you didn't create a GitHub account before the lesson, you will need to do so now before you can proceed). 
 
-1. Open GitHub Desktop. Click 'Sign in to GitHub.com'
-2. Sign in using your GitHub username & password.
-3. Update your user information if necessary.
-4. Click 'Finish'.
+
+> ## Connecting to your GitHub account
+> We will connect to our GitHub account using our username and password (if you didn't create a GitHub account before the lesson, you will need to do so now before you can proceed). 
+>1. Open GitHub Desktop. Click 'Sign in to GitHub.com'
+>2. Sign in using your GitHub username & password.
+>3. Update your user information if necessary.
+>4. Click 'Finish'.
+>
+{: .checklist}
 
 You should now be logged in to your GitHub account. If you have any repositories associated with your account, you should see them listed in the left panel. 
 
@@ -63,19 +67,41 @@ In order to make our repo public, we need to click 'Publish repository'. This wi
 
 ### Making changes to a repository
 
-Edit the README file
-Create new files
-Adding non-text files
-	Images, PDFs, etc.
-	Directories
+The power of Git & GitHub are tracking local changes in files over time, then sharing those changes on GitHub. This is the basis of version control. 
 
 > ## The README file
 > It is good practice to add a README file to each project to give a brief overview of what the project is about. If you 
 > put your README file in your repository's root directory, GitHub will recognize and automatically surface your README 
-> to repository visitors
+> to repository visitors.
 {: .callout}
 
+Let's edit our README file by adding some useful information about this repository. 
+
+> ## Edit the README
+> The README file is written in markdown. Markdown is a simple way to style text on  the web. We'll talk more about markdown in episode 5. 
+>1. Navigate to the repository directory & open the README file using a text editor.
+>2. Add a few lines to the README describing this repository. Include any documentation or metadata necessary to understand the files in this repo.
+>3. Save and close the README file.
+>
+{: .checklist}
+
+We can also add new files to our repo and have Git begin tracking the changes. Any file or direcotry we add to our main (root) directory will be automatically tracked by Git. If we don't want a file tracked, we should add it to the `.gitignore` file.
+
+>## Create & add new files
+> Let's create new file in out repo and add an existing file. Git can track all types of files, not just text based. 
+>1. Open your text editor and create a new file.
+>2. Write some lines of text (it doesn't metter what).
+>3. Save & close the file (make sure to save the file inside our repo directory).
+>4. Add an image file to your repo directory. If you don't have any images on your machine: 
+> - Open a web browser and Google search "dog"
+> - Right-click the image and select 'Save Image As...'
+> - Save the image inside your repo directory.
+>
+{: .checklist}
+
 ### Commit & push changes to GitHub
+
+We've made changes to the files in our repo. To track these changes as a new version, we need to goto the GitHub Desktop application and 'commit' our changes. 
 
 Commit messages
 See the Diff
