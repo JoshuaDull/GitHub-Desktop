@@ -11,6 +11,7 @@ keypoints:
 - "the language of Git can be confusing and intimidating"
 - "rephrasing commands and drawing concepts can clarify Git's workflow"
 ---
+
 ## Let's review
 
 It is likely that some things won't have stuck from the last hour. To try to reinforce how things work we can work in groups to develop diagrams to illustrate Git functions and language. This should make carrying out more complicated aspects of Git clearer in our heads.

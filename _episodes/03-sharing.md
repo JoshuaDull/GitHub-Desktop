@@ -21,7 +21,7 @@ When we have logged in to GitHub, we can create a new repository by clicking the
 any page then selecting **New repository**. Let's do this now.
 
 * Create a new repository
-* Give it the name `hello-world`
+* Give it the name `home`
 
 GitHub will ask if you want to add a README.md, license or a `.gitignore` file. Do not do any of that for now.
 

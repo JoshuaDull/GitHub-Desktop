@@ -45,12 +45,12 @@ You should now be logged in to your GitHub account. If you have any repositories
 
 Now we are ready to create our first repository. We need to fill out some basic information about our repository before we can proceed.
 
-- Name: The repository name. This will appear as the URL for the repo (it is best to not use spaces in the name).
-- Description: Describe the contents of your repository.
-- Local path: Destination on your machine to store the repository files. This will create a direcotry with the repository name. 
-- README: Do you want to create a default README file for the repo? A README contains basic info about your repository and how to use the code or data you've uploaded.
-- Git ignore: Choose default files to ignore. You can edit this file later.
-- License: Choose to assign a license to your repository.
+* **Name** - The repository name. This will appear as the URL for the repo (it is best to not use spaces in the name).
+* **Description** - Describe the contents of your repository.
+* **Local path** - Destination on your machine to store the repository files. This will create a direcotry with the repository name. 
+* **README** - Do you want to create a default README file for the repo? A README contains basic info about your repository and how to use the code or data you've uploaded.
+* **Git ignore** - Choose default files to ignore. You can edit this file later.
+* **License** - Choose to assign a license to your repository.
 
 > ## Choosing a license
 > Choosing a license is an important part of openly sharing your creative work online. For help in wading through the
@@ -64,6 +64,8 @@ Click 'Create Repository'. Now we've created our first local Git repository.
 If we go the the directory we set as the 'local path' above, we should see a directory with our repo name. In this directory, we should see several files that we just created (README, .gitignore, license). 
 
 In order to make our repo public, we need to click 'Publish repository'. This will publish our repo to GitHub.com and it will be listed under our list of repositories. 
+
+* Add Screenshot
 
 ### Making changes to a repository
 
@@ -101,16 +103,43 @@ We can also add new files to our repo and have Git begin tracking the changes. A
 
 ### Commit & push changes to GitHub
 
-We've made changes to the files in our repo. To track these changes as a new version, we need to goto the GitHub Desktop application and 'commit' our changes. 
+We've made changes to the files in our repo. To track these changes as a new version, we need to goto the GitHub Desktop application and 'commit' our changes. We can then 'push' our version to the GitHub repo so our changes are reflected in the public repository.
 
-Commit messages
-See the Diff
-Push changes to GitHub
-View changes on GitHub
+GitHub Desktop will display the differnces between each file we've updated or added to the repo. If it is a text file, you'll see the line-by-line changes to the file. While Git can track changes for files like images, the differences will not be compareable in the Desktop application. 
+
+* Add Screenshot showing diff
+
+> ### Commit and push changes to GitHub
+> Now we can commit a new version of the repo and push our changes to GitHub so our collaborators can see the latest version.
+>1. Check the difference between the versions.
+>2. Write a descriptive commit message (See callout below for more on commit messages).
+>3. Push the changes to GitHub by click 'Push'.
+>4. Check your GitHub account to verify the commit was pushed to your public repo.
+>
+{: .checklist}
+
+* Add Screenshot 
+
+> ### Commit messages
+>Commit messages are required for each version of a repo. It is best practice for a commit meesage to be a short, but descriptive summary of the major changes to this verison. 
+>Think of a commit message as the human readable identifier for each version. View the [wiki](https://wiki.openstack.org/wiki/GitCommitMessages#Information_in_commit_messages) for more information on commit message best practices.
+>
+{: .callout}
 
 ### Edit & Commit on GitHub.com
 
 You can also edit files and commit changes using the GitHub.com site. You can only edit repos that you own or have been given edit permissions to. 
 
-We will 'fetch' changes to the repo made through GitHub.com using GitHub Desktop. This will sync our local repository to match the version on GitHub.com. 
+>### Working on GitHub.com
+>Let's edit our README file directly fromthe GitHub.com site. Make sure you are logged in to your account.
+>1. Go to GitHub.com and find the repo we created for this workshop.
+>2. Click on the README.md file. This will take you to another page.
+>3. Click on the pencil icon for 'Edit'.
+>4. Add a new line to this file.
+>5. Create a commit message and click 'Commit changes'.
+>
+{: .checklist}
 
+After editing files on GitHub.com, we can 'fetch' changes to the repo made through GitHub.com using GitHub Desktop. This will sync our local repository to match the version on GitHub.com. 
+
+Before proceeding to the next episode, be sure to open GitHub Desktop, select your repo, and click 'fetch'. Now your local files should match any edits you made using GitHub.com.
