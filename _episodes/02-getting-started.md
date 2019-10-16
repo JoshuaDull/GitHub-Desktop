@@ -122,7 +122,7 @@ GitHub Desktop will display the differnces between each file we've updated or ad
 
 > ## Commit messages
 >Commit messages are required for each version of a repo. It is best practice for a commit meesage to be a short, but descriptive summary of the major changes to this verison. 
->Think of a commit message as the human readable identifier for each version. View the [wiki](https://wiki.openstack.org/wiki/GitCommitMessages#Information_in_commit_messages) for more information on commit message best practices.
+>**Think of a commit message as the human readable identifier for each version.** View the [wiki](https://wiki.openstack.org/wiki/GitCommitMessages#Information_in_commit_messages) for more information on commit message best practices.
 >
 {: .callout}
 
@@ -143,3 +143,5 @@ You can also edit files and commit changes using the GitHub.com site. You can on
 After editing files on GitHub.com, we can 'fetch' changes to the repo made through GitHub.com using GitHub Desktop. This will sync our local repository to match the version on GitHub.com. 
 
 Before proceeding to the next episode, be sure to open GitHub Desktop, select your repo, and click 'fetch'. Now your local files should match any edits you made using GitHub.com.
+
+* Add screenshot

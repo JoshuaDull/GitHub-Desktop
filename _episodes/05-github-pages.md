@@ -13,6 +13,7 @@ keypoints:
 - "GitHub Pages offer an automated way to create a website that is version controlled and accessible for collaboration"
 - "Collaborating on a GitHub Pages website uses the same Git/GitHub workflow you learned for collaborating via a GitHub repository"
 ---
+
 ## GitHub Pages
 
 GitHub Pages is a simple service to publish a website directly on GitHub from a Git repository.
@@ -49,53 +50,17 @@ and by default this is the branch with the name 'gh-pages'.
 You can actually change this, under repository settings, to use for instance the master branch instead,
 but let's stick with the default for now.
 
-It's possible to create a new branch directly on GitHub, but we will use the command line now.
-So we will move back to the command line and type
+It's possible to create a new branch directly on GitHub.
 
-~~~
-$ git checkout -b gh-pages
-$ git push
-~~~
-{: .bash}
-~~~
-fatal: The current branch gh-pages has no upstream branch.
-To push the current branch and set the remote as upstream, use
-
-    git push --set-upstream origin gh-pages
-~~~
-{: .output}
-
-Ouch, that didn't go as we wanted, we got a fatal error!
-Let's see what Git tells us.
-It says that it doesn't know where it should push the changes.
-But it's also friendly enough to tell us what we most likely want to do,
-which is to push to the `gh-pages` branch at "origin"
-(remember that "origin" in our case is just a nickname for our GitHub repository).
-
-So let's do that:
-
-~~~
-$ git push --set-upstream origin gh-pages
-~~~
-{: .bash}
-~~~
-Total 0 (delta 0), reused 0 (delta 0)
-To https://github.com/danmichaelo/hello-world.git
- * [new branch]      gh-pages -> gh-pages
-Branch gh-pages set up to track remote branch gh-pages from origin.
-~~~
-{: .output}
-
-You might remember from earlier that we did `git push -u origin master` to
-set up the master branch. The `-u` is a shorthand for `--set-upstream`, so
-above you could also have typed `git push -u origin gh-pages`.
-
-And remember, we only have to do this the first time we push to a new branch.
-The next time we can just do `git push`.
+> ## Create a new branch
+> 1. Create a new branch called 'gh-pages'.
+> 2. In GitHub Desktop, push this new branch to our remote repository. 
+>
+{: .checklist}
 
 ### View your site
 
-If we now visit `https://some-librarian.github.io/hello-world/`,
+If we now visit `https://github-username.github.io/`,
 we should see the contents of the index.md file that created earlier.
 Usually it's available instantly, but it can take a few seconds and in the worst case a few minutes if GitHub are very busy.
 
