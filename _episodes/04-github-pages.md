@@ -53,8 +53,10 @@ but let's stick with the default for now.
 It's possible to create a new branch directly on GitHub.
 
 > ## Create a new branch
-> 1. Create a new branch called 'gh-pages'.
-> 2. In GitHub Desktop, push this new branch to our remote repository. 
+> 1. On your `<github_username>.github.io` repo, create a new branch called 'gh-pages'.
+> 2. Open a new text file.
+> 3. Add a header '## Hello World'.
+> 2. In GitHub Desktop, make a commit and push this new branch to our remote repository. 
 >
 {: .checklist}
 
@@ -64,63 +66,58 @@ If we now visit `https://github-username.github.io/`,
 we should see the contents of the index.md file that created earlier.
 Usually it's available instantly, but it can take a few seconds and in the worst case a few minutes if GitHub are very busy.
 
-> ## Challenge: Contributing to a page owned by someone else (slightly easier way)
->
-> To practise using Git, GitHub pages and Markdown we can contribute to a GitHub pages site.
-> Pair up in groups of two (or more if needed) and do the exercises below together.
-> 
-> 1. Go to https://github.com/some-librarian/hello-world, where "some-librarian" is the username of your exercise partner.
-> 2. Click on "Fork" in the upper right part of the screen to create a copy of the repository on your account. Once you have a fork > of your partner's repository, you can edit the files in your own fork directly.
-> 3. Click the "index.md" file, then click the edit pencil icon:
-> 
->    ![GitHub edit pencil](../fig/github-edit-pencil.png)
-> 
-> 4. Now is good chance to try some Markdown syntax.
->    Try some of the examples at [Mastering Markdown](https://guides.github.com/features/mastering-markdown/).
->    You can preview how it will look before you commit changes.
-> 5. Once you are ready to commit, enter a short commit message,
->    select "Create a new branch for this commit and start a pull request"
->    and press "Propose file change".
-> 
->    ![Commit and create pull request](../fig/github-commit-pr.png)
-> 
-> 8. You will now get the option to review the changes and add an additional
->    explanation before sending the pull request (this is especially useful
->    if you make a single pull request for multiple commits).
-> 9. Your partner should now see a pull request under the "Pull requests" tab
->    and can accept ("Merge pull request") the changes there. Try this.
-> 
-> This whole process of making a fork and a pull request might seem a bit cumbersome.
-> Try to think of why it was needed? And why it's called "pull request"?
->
-> > ## Solution
-> > We made a fork and a pull request because we did not have permission to edit
-> > (or commit) the repository directly. A fork is a copy of the repository that
-> > we *can* edit. By making a pull request we ask the owner of the repository if
-> > they would like to accept (pull in) the changes from our fork (our copy) into
-> > their version. The owner can then review the changes and choose to accept or
-> > reject them.
-> >
-> > You can open pull requests on any repository you find on GitHub. If you are a
-> > group of people who plan to collaborate closely, on the other hand,
-> > it's more practical to grant everyone access to commit directly instead.
-> >
-> {: .solution}
-{: .challenge}
+### Adding content with mardkdown
 
-> ## Optional challenge: Contributing to a page owned by someone else (slightly more complicated way)
->
-> Instead of making edits on the GitHub website you can 'clone' the fork to your local machine
-> and work there.
->
-> Try following the rest of the steps under "Time to Submit Your First PR"
-> at this guide: <https://www.thinkful.com/learn/github-pull-request-tutorial/Writing-a-Good-Commit-Message#Time-to-Submit-Your-First-PR>
->
-> (If you followed step 1 and 2 in the previous challenge, you already have a fork and you can
-> skip the creation of a new fork if you like. You can submit multiple pull requests using the same fork.)
+Markdown is a simple syntax for editing web pages. It's limited in what it can do, but is easy to learn. [Markdown Live Preview](https://markdownlivepreview.com/) let's your edit and preview markdown so you can see how the syntax changes the style.
+
+> ## Challenge: Working with Markdown
+> 1. Use the [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) to add more styled text to your home-page:
+> - Add a header.
+> - Add a link to `google.com`.
+> 2. Add an image to your site. You can link to an image online or upload an image to your repository. 
+> 3. Commit and push your changes to GitHub. View your site and see if it looks how you expected.
 >
 {: .challenge}
 
+### Using GitHub Pages themes
+
+GitHub provide some free themes we can apply to our site to add a more professional style. GitHub pages uses Jekyll to create themes and apply them to your site. This adds more options for development, but users can still rely on the simplicity of Markdown for most of thier edits.
+
+* In the settings menu, we can scroll down to the section title 'GitHub Pages' and select 'Choose a Theme'. 
+* Once we apply the theme, GitHub will create new config files in our repo. This will give us new options on the layout of out site.
+
+### Creating a new page
+
+Currently we have a site with one page, let's create a new 'About' page for our site.
+
+1. In your repo on GitHub.com, select 'Create a new file' (make sure you are on the 'gh-pages' branch.
+2. Name the file 'about.md'.
+3. Add the following config metadata to the top of your file
+![Picture of header metadata]()
+4. Below this, add a some text describing yourself. You can add as much as you like (this is your site now!).
+5. Commit this file.
+- Add a commit message.
+- Make sure the option 'Commit directly to the gh-pages branch' is selected.
+- Press 'Commit new file'.
+
+Visit your page again. You should see an 'About' page in your home menu now. Click on the link to see the page we just created. The URL should be `https://github-username.github.io/about`. 
+
+> ## Challenge: Create a new page
+> Now that you know how to add a page to your site, you can add as many pages as you want with the same steps. 
+>
+> 1. Create a new page of your choice.
+> 2. Add some content to this page.
+> 3. Commit this new file and view your updated website.
+>
+{: .challenge}
+
+### Fetch changes locally
+
+We've made a lot of edit to our site directly on GitHub.com. We can also edit our site locally using a text editor. To do this we need to make sure our local repo is in-sync with our remote repo.
+
+In GitHub Desktop, select the repo with your website and select the 'gh-pages' branch. Now press 'Fetch origin', this will fetch all the changes we've made to our site and update our local files (adding the new files we cretead as well). 
+
+If we edit these files on our local machine, commit, and push them to GitHub, our site will be updated. It can take several minutes for these updates to be refelected online. 
 
 > ## Optional challenge: Adding an HTML page
 >
