@@ -20,8 +20,8 @@ keypoints:
 When we have logged in to GitHub, we can create a new repository by clicking the **+** icon in the upper-right corner of
 any page then selecting **New repository**. Let's do this now.
 
-* Create a new repository
-* Give it the name `<github_username>.github.io`
+1. Create a new repository
+2. Give it the name `github_username.github.io` (replace 'github_username' with your GitHub username).
 
 GitHub will ask if you want to add a README.md, license or a `.gitignore` file. Do not do any of that for now.
 
@@ -31,8 +31,7 @@ In the previous episode we created a local repository on our own computer and pu
 
 Now we've created a remote repository on GitHub, but haven't made a local copy yet. We want to link them together to synchronize them and share our project with the world.
 
-To do this, we need the GitHub repository URL, which should look something like this
-(with "some-librarian" replaced with your username):
+To do this, click on the green box called 'Clone or download". In the dropdown menu, click 'Open in desktop'. This will make a local copy of your repository:
 
 * New screenshot
 
@@ -47,9 +46,9 @@ The power of GitHub comes through collaboration. GitHub has several options for 
 > * **Import** - creates a local and remote copy of a repo that is un-linked from the original. 
 {: .callout}
 
-### Clone a public repo
+### Clone or fork a public repo
 
-We can clone any public GitHub repo. This will create a local copy of the repo and it's files. We can edit these files and push the changes back to GitHub. If you aren't the owner of the repo, you will need to make a 'pull request'. This alerts the owner that you've made changes to the repo. The owner can decide which changes they want to 'merge' into the repo or they can reject the 'pull request'. 
+We can clone or fork any public GitHub repo. This will create a local copy of the repo and it's files. We can edit these files and push the changes back to GitHub. If you aren't the owner of the repo, you will need to make a 'pull request'. This alerts the owner that you've made changes to the repo. The owner can decide which changes they want to 'merge' into the repo or they can reject the 'pull request'. 
 
 > ## Challenge: Fork a repo & create a pull request
 > Pair up in groups of two (or more if needed) and do the exercises below together.

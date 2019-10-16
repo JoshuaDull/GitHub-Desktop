@@ -3,10 +3,10 @@ title: "Getting started with GitHub Desktop"
 teaching: 40
 exercises: 0
 questions:
-- "GitHub Desktop Set-up"
+- "How to set-up GitHub Desktop?"
 - "What are repositories and how are they created?"
 - "What do `fetch`, `commit`, and `push` mean?"
-- "How do I check the status of my repository?"
+- "What is the difference between a local and remote repository?"
 objectives:
 - "create a git repository"
 - "track changes to files using the git repository"
@@ -14,7 +14,6 @@ objectives:
 keypoints:
 - "Git repositories contain metadata about files under version control"
 - "This metadata enables us to track changes to files over time"
-- "Git uses a two-stage commit process. Changes to files must first be added to the staging area, then committed to the repository"
 ---
 
 ### Using GitHub Desktop

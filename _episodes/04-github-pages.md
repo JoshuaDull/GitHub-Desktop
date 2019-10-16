@@ -53,10 +53,14 @@ but let's stick with the default for now.
 It's possible to create a new branch directly on GitHub.
 
 > ## Create a new branch
-> 1. On your `<github_username>.github.io` repo, create a new branch called 'gh-pages'.
-> 2. Open a new text file.
-> 3. Add a header '## Hello World'.
-> 2. In GitHub Desktop, make a commit and push this new branch to our remote repository. 
+> 1. Using GitHub Desktop, create a new branch in your `github_username.github.io` repo:
+> - Click the arrow next to 'Current branch' 
+> - Click 'New branch'
+> - Name the new branch 'gh-pages' and click 'Create'.
+> 2. In your text editor, create a new text file.
+> 3. Add a header like: '## Hello World' or any other text. 
+> 4. Save the file to your local repository. Make sure the file is named 'index.md'.
+> 5. Using GitHub Desktop, make a new commit and push this new branch to our remote repository. 
 >
 {: .checklist}
 
@@ -68,23 +72,29 @@ Usually it's available instantly, but it can take a few seconds and in the worst
 
 ### Adding content with mardkdown
 
-Markdown is a simple syntax for editing web pages. It's limited in what it can do, but is easy to learn. [Markdown Live Preview](https://markdownlivepreview.com/) let's your edit and preview markdown so you can see how the syntax changes the style.
+Markdown is a simple syntax for editing web pages. It's limited in what it can do, but is easy to learn. 
+- [Mastering Markdown](https://guides.github.com/features/mastering-markdown/) is a helpful tutorial for leanring the functions of markdown using GitHub Pages.
+- [Markdown Live Preview](https://markdownlivepreview.com/) let's your edit and preview markdown so you can see how the syntax changes the style.
+- You can even add emojis: [Emoji Cheatsheet](https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md)
 
 > ## Challenge: Working with Markdown
 > 1. Use the [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) to add more styled text to your home-page:
 > - Add a header.
 > - Add a link to `google.com`.
-> 2. Add an image to your site. You can link to an image online or upload an image to your repository. 
+> 2. Add an image to your site. You can use an image online or upload an image to your repository.
+> - Online Image: Find an image online, right-click on the image, and choose 'copy link address'. Paste this image link into the (parentheses).
+> - Local Image: Move an image into you local repo. Add '../image_name.png' to the parentheses (replace 'image_name' with the actual file name).
 > 3. Commit and push your changes to GitHub. View your site and see if it looks how you expected.
+> 4. If you have time, add more content to your site and practice more markdown.
 >
 {: .challenge}
 
 ### Using GitHub Pages themes
 
-GitHub provide some free themes we can apply to our site to add a more professional style. GitHub pages uses Jekyll to create themes and apply them to your site. This adds more options for development, but users can still rely on the simplicity of Markdown for most of thier edits.
+GitHub provide some free themes we can apply to our site to add a more professional style. GitHub pages uses [Jekyll](https://jekyllrb.com/) to create themes and apply them to your site. This adds more options for development, but users can still rely on the simplicity of Markdown for most of thier edits.
 
 * In the settings menu, we can scroll down to the section title 'GitHub Pages' and select 'Choose a Theme'. 
-* Once we apply the theme, GitHub will create new config files in our repo. This will give us new options on the layout of out site.
+* Once we apply the theme, GitHub will create new config files in our repo. This will give us new options on the layout of our site.
 
 ### Creating a new page
 
