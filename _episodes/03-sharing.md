@@ -1,7 +1,7 @@
 ---
 title: "Working with Public Repositories"
-teaching: 30
-exercises: 0
+teaching: 20
+exercises: 15
 questions:
 - "How can I use Git and GitHub to share my work?"
 - "How do I link a local Git repository to GitHub?"
@@ -67,10 +67,10 @@ We can clone any public GitHub repo. This will create a local copy of the repo a
 > 
 >    ![Commit and create pull request](../fig/github-commit-pr.png)
 > 
-> 8. You will now get the option to review the changes and add an additional
+> 6. You will now get the option to review the changes and add an additional
 >    explanation before sending the pull request (this is especially useful
 >    if you make a single pull request for multiple commits).
-> 9. Your partner should now see a pull request under the "Pull requests" tab
+> 7. Your partner should now see a pull request under the "Pull requests" tab
 >    and can accept ("Merge pull request") the changes there. Try this.
 >
 {: .challenge}

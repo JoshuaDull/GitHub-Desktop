@@ -1,6 +1,6 @@
 ---
 title: "GitHub Pages"
-teaching: 15
+teaching: 30
 exercises: 20
 questions:
 - "What is GitHub Pages?"

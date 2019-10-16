@@ -1,6 +1,6 @@
 ---
 title: "Getting started with GitHub Desktop"
-teaching: 20
+teaching: 40
 exercises: 0
 questions:
 - "GitHub Desktop Set-up"
