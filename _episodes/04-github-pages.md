@@ -93,22 +93,28 @@ Markdown is a simple syntax for editing web pages. It's limited in what it can d
 
 GitHub provide some free themes we can apply to our site to add a more professional style. GitHub pages uses [Jekyll](https://jekyllrb.com/) to create themes and apply them to your site. This adds more options for development, but users can still rely on the simplicity of Markdown for most of thier edits.
 
-* In the settings menu, we can scroll down to the section title 'GitHub Pages' and select 'Choose a Theme'. 
-* Once we apply the theme, GitHub will create new config files in our repo. This will give us new options on the layout of our site.
+> ## Applying a Jekyll theme
+> * In the settings menu, we can scroll down to the section title 'GitHub Pages' and select 'Choose a Theme'. 
+> * Once we apply the theme, GitHub will create new config files in our repo. This will give us new options on the layout of our site.
+> 
+{: .checklist}
 
 ### Creating a new page
 
 Currently we have a site with one page, let's create a new 'About' page for our site.
 
-1. In your repo on GitHub.com, select 'Create a new file' (make sure you are on the 'gh-pages' branch.
-2. Name the file 'about.md'.
-3. Add the following config metadata to the top of your file
-![Picture of header metadata]()
-4. Below this, add a some text describing yourself. You can add as much as you like (this is your site now!).
-5. Commit this file.
-- Add a commit message.
-- Make sure the option 'Commit directly to the gh-pages branch' is selected.
-- Press 'Commit new file'.
+> ## Adding a page to a site
+> 1. In your repo on GitHub.com, select 'Create a new file' (make sure you are on the 'gh-pages' branch.
+> 2. Name the file 'about.md'.
+> 3. Add the following config metadata to the top of your file
+> ![Picture of header metadata]()
+> 4. Below this, add a some text describing yourself. You can add as much as you like (this is your site now!).
+> 5. Commit this file.
+> - Add a commit message.
+> - Make sure the option 'Commit directly to the gh-pages branch' is selected.
+> - Press 'Commit new file'.
+> 
+{: .checklist}
 
 Visit your page again. You should see an 'About' page in your home menu now. Click on the link to see the page we just created. The URL should be `https://github-username.github.io/about`. 
 
@@ -144,7 +150,7 @@ If we edit these files on our local machine, commit, and push them to GitHub, ou
 >    ![Create new file on GitHub](../fig/github-create-new-file.png)
 >
 > 3. Name it 'test.html', add some HTML and click "Commit new file".
-> 4. Try opening `https://some-librarian.github.io/hello-world/test`
+> 4. Try opening `https://github-username.github.io/text`
 >    (replace "some-librarian" with your username).
 >    Notice that the HTML extension is not included.
 >

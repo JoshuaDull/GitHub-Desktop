@@ -20,8 +20,11 @@ keypoints:
 When we have logged in to GitHub, we can create a new repository by clicking the **+** icon in the upper-right corner of
 any page then selecting **New repository**. Let's do this now.
 
-1. Create a new repository
-2. Give it the name `github_username.github.io` (replace 'github_username' with your GitHub username).
+> ## Create a new repo
+> 1. Create a new repository
+> 2. Give it the name `github_username.github.io` (replace 'github_username' with your GitHub username).
+>
+{: .checklist}
 
 GitHub will ask if you want to add a README.md, license or a `.gitignore` file. Do not do any of that for now.
 
