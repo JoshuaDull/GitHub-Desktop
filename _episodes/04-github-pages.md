@@ -89,7 +89,7 @@ GitHub provide some free themes we can apply to our site to add a more professio
 > 
 > * Click on `'index.md'` and choose to edit the file (clicking on the pencil).
 > * Add the following text to the top of the file. This text tells GiHub to treat this as our home page. 
-> ![homepage layout](../fig/hom.png)
+> ![homepage layout](../fig/home.png)
 >
 {: .checklist}
 
