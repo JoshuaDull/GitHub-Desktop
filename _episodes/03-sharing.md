@@ -25,7 +25,7 @@ any page then selecting **New repository**. Let's do this now.
 > - Log-in to GitHub.com.
 > - Click on **+** icon on the top right of the site.
 > - Select 'New repository'.
-> - ![add new repo](../fig/NewRepo.png)
+>    ![add new repo](../fig/NewRepo.png)
 > 2. Give it the name `github_username.github.io` (replace 'github_username' with your GitHub username).
 > 3. Check the box for 'Initialize this repository with a README'.
 > 4. Press 'Create repository'.
@@ -69,7 +69,7 @@ We can clone or fork any public GitHub repo. This will create a local copy of th
 > 2. Click on "Fork" in the upper right part of the screen to create a copy of the repository on your account. Once you have a fork of your partner's repository, you can edit the files in your own fork directly.
 > 3. Click the "README.md" file, then click the edit pencil icon:
 > 
->    ![GitHub edit pencil](../fig/github-edit-pencil.png)
+>  ![GitHub edit pencil](../fig/github-edit-pencil.png)
 > 
 > 4. Add some text to README.md. You can also preview how it will look before you commit changes.
 > 5. Once you are ready to commit, enter a short commit message,

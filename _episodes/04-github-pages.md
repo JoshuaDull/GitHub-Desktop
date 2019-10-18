@@ -46,7 +46,7 @@ There are various options for setting up a GitHub Pages site. Let's run through 
 > ## Create index.md
 >
 > 1. In your text editor, create a new text file.
-> 2. Add a header like: '## Hello World' or any other text. 
+> 2. Add some text. 
 > 3. Save the file to your local repository. Make sure the file is named 'index.md'.
 > 4. Using GitHub Desktop, make a new commit and push your changes to GitHub (our remote repository). 
 >
@@ -54,9 +54,9 @@ There are various options for setting up a GitHub Pages site. Let's run through 
 
 ### View your site
 
-If we now visit **`https://github-username.github.io/`**,
-we should see the contents of the index.md file that created earlier.
-Usually it's available instantly, but it can take a few seconds and in the worst case a few minutes if GitHub are very busy. **If you don't see your changes, try refreshing the page.**
+Visit **`https://github-username.github.io/index`**.
+We should see the contents of the index.md file that created earlier.
+Usually updates are available quickly, but it can take a few seconds and in the worst case a few minutes depending on how many changes you make. **If you don't see your changes, try refreshing the page.**
 
 ### Adding content with mardkdown
 
@@ -87,6 +87,10 @@ GitHub provide some free themes we can apply to our site to add a more professio
 > ![config file](../fig/yml.png)
 > * Once we commit this config file, GitHub pages applies the theme to our site. This will give us new options on the layout of our site.
 > 
+> * Click on `'index.md'` and choose to edit the file (clicking on the pencil).
+> * Add the following text to the top of the file. This text tells GiHub to treat this as our home page. 
+> ![homepage layout](../fig/hom.png)
+>
 {: .checklist}
 
 ### Creating a new page
@@ -131,16 +135,12 @@ If we edit these files on our local machine, commit, and push them to GitHub, ou
 > to your repository. You could do this on the command line or directly on GitHub. The
 > steps below are for working directly on GitHub:
 >
-> 1. Make sure you are working on the "gh-pages" branch. Select it from the menu if not:
->
->    ![Branch selector on GitHub](../fig/github-gh-pages.png)
->
-> 2. To add a new file directly on GitHub, press the "Create new file" button. 
+> 1. To add a new file directly on GitHub, press the "Create new file" button. 
 >
 >    ![Create new file on GitHub](../fig/github-create-new-file.png)
 >
-> 3. Name it 'test.html', add some HTML and click "Commit new file".
-> 4. Try opening `https://github-username.github.io/text`
+> 2. Name it 'test.html', add some HTML and click "Commit new file".
+> 3. Try opening `https://github-username.github.io/text`
 >    (replace "some-librarian" with your username).
 >    Notice that the HTML extension is not included.
 >
