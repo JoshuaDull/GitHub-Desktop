@@ -54,7 +54,7 @@ There are various options for setting up a GitHub Pages site. Let's run through 
 
 ### View your site
 
-Visit **`https://github-username.github.io/index`**.
+Visit **`https://github-username.github.io`**.
 We should see the contents of the index.md file that created earlier.
 Usually updates are available quickly, but it can take a few seconds and in the worst case a few minutes depending on how many changes you make. **If you don't see your changes, try refreshing the page.**
 
@@ -141,7 +141,7 @@ If we edit these files on our local machine, commit, and push them to GitHub, ou
 >
 > 2. Name it 'test.html', add some HTML and click "Commit new file".
 > 3. Try opening `https://github-username.github.io/text`
->    (replace "some-librarian" with your username).
+>    (replace "github-username" with your username).
 >    Notice that the HTML extension is not included.
 >
 {: .challenge}
