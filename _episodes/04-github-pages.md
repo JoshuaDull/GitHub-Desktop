@@ -43,43 +43,30 @@ have learned in the previous hour and may help spark discussion for the last sec
 
 There are various options for setting up a GitHub Pages site. Let's run through a few of them now.
 
-### The gh-pages branch
-
-GitHub Pages uses a special branch in your GitHub repository to look for website content,
-and by default this is the branch with the name 'gh-pages'.
-You can actually change this, under repository settings, to use for instance the master branch instead,
-but let's stick with the default for now.
-
-It's possible to create a new branch directly on GitHub.
-
-> ## Create a new branch
-> 1. Using GitHub Desktop, create a new branch in your `github_username.github.io` repo:
-> - Click the arrow next to 'Current branch' 
-> - Click 'New branch'
-> - Name the new branch 'gh-pages' and click 'Create'.
-> 2. In your text editor, create a new text file.
-> 3. Add a header like: '## Hello World' or any other text. 
-> 4. Save the file to your local repository. Make sure the file is named 'index.md'.
-> 5. Using GitHub Desktop, make a new commit and push this new branch to our remote repository. 
+> ## Create index.md
+>
+> 1. In your text editor, create a new text file.
+> 2. Add a header like: '## Hello World' or any other text. 
+> 3. Save the file to your local repository. Make sure the file is named 'index.md'.
+> 4. Using GitHub Desktop, make a new commit and push your changes to GitHub (our remote repository). 
 >
 {: .checklist}
 
 ### View your site
 
-If we now visit `https://github-username.github.io/`,
+If we now visit **`https://github-username.github.io/`**,
 we should see the contents of the index.md file that created earlier.
-Usually it's available instantly, but it can take a few seconds and in the worst case a few minutes if GitHub are very busy.
+Usually it's available instantly, but it can take a few seconds and in the worst case a few minutes if GitHub are very busy. **If you don't see your changes, try refreshing the page.**
 
 ### Adding content with mardkdown
 
 Markdown is a simple syntax for editing web pages. It's limited in what it can do, but is easy to learn. 
 - [Mastering Markdown](https://guides.github.com/features/mastering-markdown/) is a helpful tutorial for leanring the functions of markdown using GitHub Pages.
 - [Markdown Live Preview](https://markdownlivepreview.com/) let's your edit and preview markdown so you can see how the syntax changes the style.
-- You can even add emojis: [Emoji Cheatsheet](https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md)
 
 > ## Challenge: Working with Markdown
-> 1. Use the [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) to add more styled text to your home-page:
-> - Add a header.
+> 1. Use the [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) to add more styled text to your home-page (index.md):
+> - Add a list.
 > - Add a link to `google.com`.
 > 2. Add an image to your site. You can use an image online or upload an image to your repository.
 > - Online Image: Find an image online, right-click on the image, and choose 'copy link address'. Paste this image link into the (parentheses).
@@ -94,8 +81,11 @@ Markdown is a simple syntax for editing web pages. It's limited in what it can d
 GitHub provide some free themes we can apply to our site to add a more professional style. GitHub pages uses [Jekyll](https://jekyllrb.com/) to create themes and apply them to your site. This adds more options for development, but users can still rely on the simplicity of Markdown for most of thier edits.
 
 > ## Applying a Jekyll theme
-> * In the settings menu, we can scroll down to the section title 'GitHub Pages' and select 'Choose a Theme'. 
-> * Once we apply the theme, GitHub will create new config files in our repo. This will give us new options on the layout of our site.
+> * Choose 'Create a new file'.
+> * Name the file `_config.yml`. 
+> * Add the folowing text to the file:
+> ![config file](../fig/yml.png)
+> * Once we commit this config file, GitHub pages applies the theme to our site. This will give us new options on the layout of our site.
 > 
 {: .checklist}
 
@@ -104,19 +94,19 @@ GitHub provide some free themes we can apply to our site to add a more professio
 Currently we have a site with one page, let's create a new 'About' page for our site.
 
 > ## Adding a page to a site
-> 1. In your repo on GitHub.com, select 'Create a new file' (make sure you are on the 'gh-pages' branch.
+> 1. In your repo on GitHub.com, select 'Create a new file'.
 > 2. Name the file 'about.md'.
 > 3. Add the following config metadata to the top of your file
-> ![Picture of header metadata]()
+> ![Picture of header metadata](../fig/aboutPage.png)
 > 4. Below this, add a some text describing yourself. You can add as much as you like (this is your site now!).
 > 5. Commit this file.
 > - Add a commit message.
-> - Make sure the option 'Commit directly to the gh-pages branch' is selected.
+> - Make sure the option 'Commit directly to the master branch' is selected.
 > - Press 'Commit new file'.
 > 
 {: .checklist}
 
-Visit your page again. You should see an 'About' page in your home menu now. Click on the link to see the page we just created. The URL should be `https://github-username.github.io/about`. 
+Visit your page again. You should see an 'About' page in your home menu now. Click on the link to see the page we just created. The URL should be `https://github-username.github.io/about/`. 
 
 > ## Challenge: Create a new page
 > Now that you know how to add a page to your site, you can add as many pages as you want with the same steps. 

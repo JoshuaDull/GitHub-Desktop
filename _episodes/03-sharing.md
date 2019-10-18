@@ -21,12 +21,19 @@ When we have logged in to GitHub, we can create a new repository by clicking the
 any page then selecting **New repository**. Let's do this now.
 
 > ## Create a new repo
-> 1. Create a new repository
+> 1. Create a new repository:
+> - Log-in to GitHub.com.
+> - Click on **+** icon on the top right of the site.
+> - Select 'New repository'.
+> - ![add new repo](../fig/NewRepo.png)
 > 2. Give it the name `github_username.github.io` (replace 'github_username' with your GitHub username).
+> 3. Check the box for 'Initialize this repository with a README'.
+> 4. Press 'Create repository'.
+> ![Create repo](../fig/createRepo.png)
 >
 {: .checklist}
 
-GitHub will ask if you want to add a README.md, license or a `.gitignore` file. Do not do any of that for now.
+GitHub will also ask if you want to add a license or a `.gitignore` file. We do not need to do any of that for now.
 
 ### Cloning your remote repository 
 
@@ -34,9 +41,11 @@ In the previous episode we created a local repository on our own computer and pu
 
 Now we've created a remote repository on GitHub, but haven't made a local copy yet. We want to link them together to synchronize them and share our project with the world.
 
-To do this, click on the green box called 'Clone or download". In the dropdown menu, click 'Open in desktop'. This will make a local copy of your repository:
+Once we've created on new repo on GitHub, we should see a repository containing just our README file. Click the green button called 'Clone or download'. In the drop-down, click 'Open in Desktop'.
 
-* New screenshot
+![github clone](../fig/openInDesktop.png)
+
+When GitHub Desktop opens, we can change the location of our local repository. When we are ready, select 'Clone' and now we have a local copy of the repo we created at GitHub.com.
 
 ### Working with collaborators
 
@@ -49,14 +58,14 @@ The power of GitHub comes through collaboration. GitHub has several options for 
 > * **Import** - creates a local and remote copy of a repo that is un-linked from the original. 
 {: .callout}
 
-### Clone or fork a public repo
+### Forking a public repo
 
 We can clone or fork any public GitHub repo. This will create a local copy of the repo and it's files. We can edit these files and push the changes back to GitHub. If you aren't the owner of the repo, you will need to make a 'pull request'. This alerts the owner that you've made changes to the repo. The owner can decide which changes they want to 'merge' into the repo or they can reject the 'pull request'. 
 
 > ## Challenge: Fork a repo & create a pull request
 > Pair up in groups of two (or more if needed) and do the exercises below together.
 > 
-> 1. Go to https://github.com/some-librarian/hello-world, where "some-librarian" is the username of your exercise partner.
+> 1. Go to https://github.com/github-username/github-username.github.io, where "github-username" is the username of your exercise partner.
 > 2. Click on "Fork" in the upper right part of the screen to create a copy of the repository on your account. Once you have a fork of your partner's repository, you can edit the files in your own fork directly.
 > 3. Click the "README.md" file, then click the edit pencil icon:
 > 

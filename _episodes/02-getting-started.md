@@ -87,13 +87,12 @@ The power of Git & GitHub are tracking local changes in files over time, then sh
 Let's edit our README file by adding some useful information about this repository. 
 
 > ## Edit the README
-> The README file is written in markdown. Markdown is a simple way to style text on  the web. We'll talk more about markdown in episode 5. 
+> The README file is written in markdown. Markdown is a simple way to style text on  the web. We'll talk more about markdown in episode 4. 
 >1. Navigate to the repository directory & open the README file using a text editor.
 >2. Add a few lines to the README describing this repository. Include any documentation or metadata necessary to understand the files in this repo.
 >3. Save and close the README file.
 >
 {: .checklist}
-
 
 ### Commit & push changes to GitHub
 
@@ -140,12 +139,13 @@ We can also add new files to our repo and have Git begin tracking the changes. A
 You can also edit files and commit changes using the GitHub.com site. You can only edit repos that you own or have been given edit permissions to. 
 
 >## Working on GitHub.com
->Let's edit our README file directly fromthe GitHub.com site. Make sure you are logged in to your account.
+>Let's edit our README file directly on GitHub. Make sure you are logged in to your account.
 >1. Go to GitHub.com and find the repo we created for this workshop.
 >2. Click on the README.md file. This will take you to another page.
 >3. Click on the pencil icon for 'Edit'.
+> ![GitHub edit pencil](../fig/github-edit-pencil.png)
 >4. Add a new line to this file.
->5. Create a commit message and click 'Commit changes'.
+>5. Create a commit message and click 'Commit changes' (make sure'Commit directly to the `master` branch.' is selected).
 >
 {: .checklist}
 
